@@ -3,6 +3,7 @@ var btn = document.getElementById("button");
 var  latlong = document.getElementById("latlong");
 var  weatherType = document.getElementById("type");
 var  temp = document.getElementById("temp");
+
 window.onload = function() {
   btn.innerHTML = "THis is a button";
   if(navigator.geolocation) {
